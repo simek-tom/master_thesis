@@ -1,0 +1,20 @@
+# Ignore everything, then allow back only what ships with the thesis.
+#
+# thesis_final/
+#   crawler_final/    the data-collection code, stripped to what runs the crawl
+#   data_final/       the frozen analysis inputs
+#   notebooks_final/  the two notebooks reproducing every table and figure
+#
+# Everything else in this working tree is local state: the crawler runtime with
+# its session files and account credentials, the raw scrape, intermediate
+# analysis artifacts, the build scripts, drafts and scratch files.
+/*
+!/.gitignore
+!/thesis_final/
+
+# local clutter, wherever it appears
+.ipynb_checkpoints/
+.virtual_documents/
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,11 @@
+# Runtime for notebooks_final/. Versions are the ones the submitted outputs were
+# produced with; the notebooks use no version-specific API and run on nearby releases.
+# Python 3.14 was used; 3.10+ is sufficient.
+python-igraph==1.0.0
+leidenalg==0.12.0
+pandas==3.0.3
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.11.0
+stopwordsiso==0.7.1
+jupyterlab

@@ -1,0 +1,28 @@
+{
+ "dataset": {
+  "n_channels": 9985,
+  "n_seeds": 50,
+  "window": [
+   "2022-12-28",
+   "2023-01-28"
+  ]
+ },
+ "embedding_corpus": {
+  "min_chars": 100,
+  "truncate_chars": 400,
+  "n_msgs_over_min_chars": 1918478,
+  "n_unique_after_dedup": 1505931,
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "threshold_same_language": 0.98,
+  "threshold_cross_language": 0.95
+ },
+ "raw_extraction": {
+  "fwd_edges_rows": 126005,
+  "mention_edges_rows": 272079,
+  "registry_channels": 11628
+ },
+ "unmarked_build": {
+  "n_pairs_kept": 317156,
+  "n_edges": 116863
+ }
+}

@@ -1,0 +1,7 @@
+telethon==1.37.0
+python-socks[asyncio]==2.5.3
+lingua-language-detector==2.2.0
+
+
+# TF-IDF community topics (marked_network notebook)
+stopwordsiso
