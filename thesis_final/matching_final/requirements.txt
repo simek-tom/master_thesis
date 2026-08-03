@@ -1,0 +1,11 @@
+# Runtime for the derivation pipeline. Heavier than the other two folders because
+# the matching step embeds ~1.5M texts and runs an all-pairs cosine over them.
+#
+# Two scripts (simulate_crawl.py, build_nodes.py) import `src.config` from
+# ../crawler_final — run them from that folder, or with ../crawler_final on
+# PYTHONPATH.
+sentence-transformers==5.5.1
+torch==2.12.0
+numpy==2.4.6
+langdetect==1.0.9
+python-igraph==1.0.0
